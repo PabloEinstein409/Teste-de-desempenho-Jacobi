@@ -1,0 +1,122 @@
+# started on Thu Nov  5 18:16:35 2026
+
+
+ Performance counter stats for './solver-jacobi-mt-O3.exec 1E-10 1 A4000.bin B4000.bin MX_4000_O3.bin':
+
+          3.392,60 msec task-clock:u                     #    3,714 CPUs utilized             
+                 0      context-switches:u               #    0,000 /sec                      
+                 0      cpu-migrations:u                 #    0,000 /sec                      
+                94      page-faults:u                    #   27,707 /sec                      
+    10.535.887.558      cycles:u                         #    3,106 GHz                         (83,37%)
+     7.229.600.209      stalled-cycles-frontend:u        #   68,62% frontend cycles idle        (83,36%)
+     3.358.330.248      stalled-cycles-backend:u         #   31,88% backend cycles idle         (66,68%)
+    16.503.692.661      instructions:u                   #    1,57  insn per cycle            
+                                                  #    0,44  stalled cycles per insn     (83,35%)
+     3.668.736.470      branches:u                       #    1,081 G/sec                       (83,29%)
+           928.077      branch-misses:u                  #    0,03% of all branches             (83,31%)
+
+       0,913425667 seconds time elapsed
+
+       3,307701000 seconds user
+       0,084838000 seconds sys
+
+
+     Error: 1.320E+01 | step: 00026 | thread: 4
+	     Error: 1.167E+00 | step: 00027 | thread: 4
+	     Error: 7.784E+00 | step: 00028 | thread: 4
+	     Error: 8.553E-01 | step: 00029 | thread: 4
+	     Error: 1.854E+00 | step: 00030 | thread: 4
+	     Error: 5.848E-01 | step: 00031 | thread: 4
+	     Error: 7.992E-01 | step: 00032 | thread: 4
+	     Error: 3.777E-01 | step: 00033 | thread: 4
+	     Error: 4.024E-01 | step: 00034 | thread: 4
+	     Error: 2.341E-01 | step: 00035 | thread: 4
+	     Error: 2.162E-01 | step: 00036 | thread: 4
+	     Error: 1.411E-01 | step: 00037 | thread: 4
+	     Error: 1.200E-01 | step: 00038 | thread: 4
+	     Error: 8.354E-02 | step: 00039 | thread: 4
+	     Error: 6.775E-02 | step: 00040 | thread: 4
+	     Error: 4.894E-02 | step: 00041 | thread: 4
+	     Error: 3.861E-02 | step: 00042 | thread: 4
+	     Error: 2.849E-02 | step: 00043 | thread: 4
+	     Error: 2.212E-02 | step: 00044 | thread: 4
+	     Error: 1.652E-02 | step: 00045 | thread: 4
+	     Error: 1.271E-02 | step: 00046 | thread: 4
+	     Error: 9.562E-03 | step: 00047 | thread: 4
+	     Error: 7.316E-03 | step: 00048 | thread: 4
+	     Error: 5.526E-03 | step: 00049 | thread: 4
+	     Error: 4.215E-03 | step: 00050 | thread: 4
+	     Error: 3.191E-03 | step: 00051 | thread: 4
+	     Error: 2.430E-03 | step: 00052 | thread: 4
+	     Error: 1.842E-03 | step: 00053 | thread: 4
+	     Error: 1.401E-03 | step: 00054 | thread: 4
+	     Error: 1.063E-03 | step: 00055 | thread: 4
+	     Error: 8.082E-04 | step: 00056 | thread: 4
+	     Error: 6.135E-04 | step: 00057 | thread: 4
+	     Error: 4.662E-04 | step: 00058 | thread: 4
+	     Error: 3.540E-04 | step: 00059 | thread: 4
+	     Error: 2.689E-04 | step: 00060 | thread: 4
+	     Error: 2.042E-04 | step: 00061 | thread: 4
+	     Error: 1.552E-04 | step: 00062 | thread: 4
+	     Error: 1.178E-04 | step: 00063 | thread: 4
+	     Error: 8.951E-05 | step: 00064 | thread: 4
+	     Error: 6.798E-05 | step: 00065 | thread: 4
+	     Error: 5.164E-05 | step: 00066 | thread: 4
+	     Error: 3.922E-05 | step: 00067 | thread: 4
+	     Error: 2.979E-05 | step: 00068 | thread: 4
+	     Error: 2.263E-05 | step: 00069 | thread: 4
+	     Error: 1.719E-05 | step: 00070 | thread: 4
+	     Error: 1.306E-05 | step: 00071 | thread: 4
+	     Error: 9.916E-06 | step: 00072 | thread: 4
+	     Error: 7.532E-06 | step: 00073 | thread: 4
+	     Error: 5.721E-06 | step: 00074 | thread: 4
+	     Error: 4.345E-06 | step: 00075 | thread: 4
+	     Error: 3.301E-06 | step: 00076 | thread: 4
+	     Error: 2.507E-06 | step: 00077 | thread: 4
+	     Error: 1.904E-06 | step: 00078 | thread: 4
+	     Error: 1.446E-06 | step: 00079 | thread: 4
+	     Error: 1.099E-06 | step: 00080 | thread: 4
+	     Error: 8.344E-07 | step: 00081 | thread: 4
+	     Error: 6.338E-07 | step: 00082 | thread: 4
+	     Error: 4.814E-07 | step: 00083 | thread: 4
+	     Error: 3.657E-07 | step: 00084 | thread: 4
+	     Error: 2.777E-07 | step: 00085 | thread: 4
+	     Error: 2.110E-07 | step: 00086 | thread: 4
+	     Error: 1.602E-07 | step: 00087 | thread: 4
+	     Error: 1.217E-07 | step: 00088 | thread: 4
+	     Error: 9.245E-08 | step: 00089 | thread: 4
+	     Error: 7.022E-08 | step: 00090 | thread: 4
+	     Error: 5.333E-08 | step: 00091 | thread: 4
+	     Error: 4.051E-08 | step: 00092 | thread: 4
+	     Error: 3.077E-08 | step: 00093 | thread: 4
+	     Error: 2.337E-08 | step: 00094 | thread: 4
+	     Error: 1.775E-08 | step: 00095 | thread: 4
+	     Error: 1.348E-08 | step: 00096 | thread: 4
+	     Error: 1.024E-08 | step: 00097 | thread: 4
+	     Error: 7.776E-09 | step: 00098 | thread: 4
+	     Error: 5.912E-09 | step: 00099 | thread: 4
+	     Error: 4.491E-09 | step: 00100 | thread: 4
+	     Error: 3.410E-09 | step: 00101 | thread: 4
+	     Error: 2.586E-09 | step: 00102 | thread: 4
+	     Error: 1.959E-09 | step: 00103 | thread: 4
+	     Error: 1.489E-09 | step: 00104 | thread: 4
+	     Error: 1.135E-09 | step: 00105 | thread: 4
+	     Error: 8.629E-10 | step: 00106 | thread: 4
+	     Error: 6.535E-10 | step: 00107 | thread: 4
+	     Error: 4.946E-10 | step: 00108 | thread: 4
+	     Error: 3.744E-10 | step: 00109 | thread: 4
+	     Error: 2.853E-10 | step: 00110 | thread: 4
+	     Error: 2.177E-10 | step: 00111 | thread: 4
+	     Error: 1.653E-10 | step: 00112 | thread: 4
+	     Error: 1.266E-10 | step: 00113 | thread: 4
+	     Error: 9.800E-11 | step: 00114 | thread: 4
+----------------------------------------------------------------
+	     Error: 1.000E-10 | passos 114
+----------------------------------------------------------------
+
+Comparação entre o valor exato da matriz e o aproximado
+
+Erro máximo utilizado no Método aproximativo: 1.00e-10
+	      Arquivo X exato: X4000.bin
+	 Arquivo X aproximado: MX_4000_O3.bin
+	                 |EA|: 4.16e-11 < 1.00e-10 [true]
