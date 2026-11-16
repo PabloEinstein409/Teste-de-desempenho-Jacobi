@@ -1,0 +1,20 @@
+# started on Mon Nov 16 10:20:19 2026
+
+
+ Performance counter stats for './solver-jacobi-mt-O3.exec 1E-10 0 A1000.bin B1000.bin MX_1000_O3.bin':
+
+     7.784.406.500      cycles:u                                                              
+
+       0,833156151 seconds time elapsed
+
+       2,301377000 seconds user
+       0,021076000 seconds sys
+
+
+
+Comparação entre o valor exato da matriz e o aproximado
+
+Erro máximo utilizado no Método aproximativo: 1.00e-10
+	      Arquivo X exato: X1000.bin
+	 Arquivo X aproximado: MX_1000_O3.bin
+	                 |EA|: 4.07e-11 < 1.00e-10 [true]

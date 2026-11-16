@@ -1,0 +1,21 @@
+# started on Mon Nov 16 10:22:09 2026
+
+
+ Performance counter stats for './solver-jacobi-mt-O0.exec 1E-10 0 A2000.bin B2000.bin MX_2000_O0.bin':
+
+    14.428.256.602      cycles:u                                                              
+    15.508.642.060      instructions:u                   #    1,07  insn per cycle            
+
+       1,391164092 seconds time elapsed
+
+       4,300485000 seconds user
+       0,025834000 seconds sys
+
+
+
+Comparação entre o valor exato da matriz e o aproximado
+
+Erro máximo utilizado no Método aproximativo: 1.00e-10
+	      Arquivo X exato: X2000.bin
+	 Arquivo X aproximado: MX_2000_O0.bin
+	                 |EA|: 3.58e-11 < 1.00e-10 [true]
