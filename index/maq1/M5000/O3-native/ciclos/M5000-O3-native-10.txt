@@ -1,0 +1,20 @@
+# started on Mon Nov 16 08:27:07 2026
+
+
+ Performance counter stats for './solver-jacobi-mt-O3-native.exec 1E-10 0 A5000.bin B5000.bin MX_5000_O3-native.bin':
+
+    12.528.593.610      cycles:u                                                              
+
+       0,857273097 seconds time elapsed
+
+       2,865673000 seconds user
+       0,144932000 seconds sys
+
+
+
+Comparação entre o valor exato da matriz e o aproximado
+
+Erro máximo utilizado no Método aproximativo: 1.00e-10
+	      Arquivo X exato: X5000.bin
+	 Arquivo X aproximado: MX_5000_O3-native.bin
+	                 |EA|: 3.68e-11 < 1.00e-10 [true]
